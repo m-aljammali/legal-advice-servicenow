@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Mining companies Data Mapping</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 16:53:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>569548d4972df5104868bf1e6253af60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mining companies Data Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_app_module_569548d4972df5104868bf1e6253af60</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 16:53:40</sys_updated_on>
+        <timeline_page/>
+        <title>Mining companies Data Mapping</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_app_module_569548d4972df5104868bf1e6253af60</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Mining companies Data Mapping</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-23 16:53:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>569548d4972df5104868bf1e6253af60</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mining companies Data Mapping</sys_name><sys_overrides/><sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package><sys_policy/><sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope><sys_update_name>sys_app_module_569548d4972df5104868bf1e6253af60</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-23 16:53:40</sys_updated_on><timeline_page/><title>Mining companies Data Mapping</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-150620291</payload_hash>
+        <record_name>Mining companies Data Mapping</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 16:53:40</sys_created_on>
+        <sys_id>d69548d4972df5104868bf1e6253af63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac2f60e870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 16:53:40</sys_updated_on>
+        <type>Module</type>
+        <update_guid>1e9548d47a2df510bc478db46dd0f262</update_guid>
+        <update_guid_history>1e9548d47a2df510bc478db46dd0f262:-150620291</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mining companies Data Mapping">4ac5c894972df5104868bf1e6253afbf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 16:54:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>17c4fce2bbd44a80973453c3738019e4</sys_id>
+        <sys_metadata>569548d4972df5104868bf1e6253af60</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mining companies Data Mapping</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_app_module_569548d4972df5104868bf1e6253af60</sys_update_name>
+        <sys_update_version display_value="sys_app_module_569548d4972df5104868bf1e6253af60">d69548d4972df5104868bf1e6253af63</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 16:54:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

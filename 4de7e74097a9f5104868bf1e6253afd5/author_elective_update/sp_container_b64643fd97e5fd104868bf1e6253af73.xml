@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>MEG Legal Advice List - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="meg_legal_advice_list">be4643fd97e5fd104868bf1e6253af6e</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 22:46:27</sys_created_on>
+        <sys_id>b64643fd97e5fd104868bf1e6253af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MEG Legal Advice List - Container 1</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sp_container_b64643fd97e5fd104868bf1e6253af73</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 22:46:27</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sp_container_b64643fd97e5fd104868bf1e6253af73</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>MEG Legal Advice List - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="meg_legal_advice_list">be4643fd97e5fd104868bf1e6253af6e</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-28 22:46:27</sys_created_on><sys_id>b64643fd97e5fd104868bf1e6253af73</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MEG Legal Advice List - Container 1</sys_name><sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package><sys_policy/><sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope><sys_update_name>sp_container_b64643fd97e5fd104868bf1e6253af73</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-28 22:46:27</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1910920331</payload_hash>
+        <record_name>MEG Legal Advice List - Container 1</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 22:46:27</sys_created_on>
+        <sys_id>fa4643fd97e5fd104868bf1e6253af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18addf8d6770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 22:46:27</sys_updated_on>
+        <type>Container</type>
+        <update_guid>324643fd0be5fd10d2df5c4a245b6775</update_guid>
+        <update_guid_history>324643fd0be5fd10d2df5c4a245b6775:1910920331</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MEG Legal Advice List - Container 1">0cc213719769fd104868bf1e6253af34</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 23:40:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>5bce92f060d34dc0bccef7a4e334de40</sys_id>
+        <sys_metadata>b64643fd97e5fd104868bf1e6253af73</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MEG Legal Advice List - Container 1</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sp_container_b64643fd97e5fd104868bf1e6253af73</sys_update_name>
+        <sys_update_version display_value="sp_container_b64643fd97e5fd104868bf1e6253af73">fa4643fd97e5fd104868bf1e6253af75</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 23:40:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

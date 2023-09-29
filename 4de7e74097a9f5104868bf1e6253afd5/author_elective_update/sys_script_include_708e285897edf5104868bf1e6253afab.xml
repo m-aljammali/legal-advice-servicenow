@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_114009_meg_leg_0.GetEmailAddress</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>true</client_callable>
+        <description>Script Include to return an email address. The calling client-side script passes a sys_id for a User table record.</description>
+        <name>GetEmailAddress</name>
+        <script><![CDATA[var GetEmailAddress = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+  // Define the getEmail function.  
+  // Create a GlideRecord for the User table.
+  // Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+  // Return the email address for the requested record
+  getEmail: function() {
+  gs.info("1234567")
+    return "userRecord.email";
+  },
+  type: 'GetEmailAddress'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 19:52:53</sys_created_on>
+        <sys_id>708e285897edf5104868bf1e6253afab</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>GetEmailAddress</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_script_include_708e285897edf5104868bf1e6253afab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-24 11:34:12</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_script_include_708e285897edf5104868bf1e6253afab</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_114009_meg_leg_0.GetEmailAddress&lt;/api_name&gt;&lt;caller_access&gt;1&lt;/caller_access&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Script Include to return an email address. The calling client-side script passes a sys_id for a User table record.&lt;/description&gt;&lt;name&gt;GetEmailAddress&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetEmailAddress = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+  // Define the getEmail function.  
+  // Create a GlideRecord for the User table.
+  // Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+  // Return the email address for the requested record
+  getEmail: function() {
+  gs.info("1234567")
+    return "userRecord.email";
+  },
+  type: 'GetEmailAddress'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-23 19:52:53&lt;/sys_created_on&gt;&lt;sys_id&gt;708e285897edf5104868bf1e6253afab&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetEmailAddress&lt;/sys_name&gt;&lt;sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0"&gt;4de7e74097a9f5104868bf1e6253afd5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MEG Legal advice"&gt;4de7e74097a9f5104868bf1e6253afd5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_708e285897edf5104868bf1e6253afab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-24 11:34:12&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>995984596</payload_hash>
+        <record_name>GetEmailAddress</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-24 11:34:12</sys_created_on>
+        <sys_id>a416cc2897ad39104868bf1e6253aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac6f7f1010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-24 11:34:12</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>6c16cc2868ad39100b40542b9c4820f0</update_guid>
+        <update_guid_history>6c16cc2868ad39100b40542b9c4820f0:995984596,d571f81c88edf5102a0ace4c177ea1a6:1261878437,88cfe4980cedf5101d9a2fe0d62acdaa:-809097898,5baf2c98d5edf51081144fba552cb147:1705168387,ef9ea85889edf510fce038d63c64ebda:1292918294</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-24 12:39:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0ab76a5741a54f1680efe6c54b7f0641</sys_id>
+        <sys_metadata>708e285897edf5104868bf1e6253afab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetEmailAddress</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_script_include_708e285897edf5104868bf1e6253afab</sys_update_name>
+        <sys_update_version display_value="sys_script_include_708e285897edf5104868bf1e6253afab">a416cc2897ad39104868bf1e6253aff1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-24 12:39:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

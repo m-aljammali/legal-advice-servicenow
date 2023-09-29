@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Mining companies Data Mapping</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">f81340f054302110a866ac4e6131311e</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 16:53:39</sys_created_on>
+        <sys_id>1e9508d4972df5104868bf1e6253afcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meg Leg 0 Ihub Import 0f117f8897a9f5104868bf1e6253af12</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_db_object_1e9508d4972df5104868bf1e6253afcf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 16:53:39</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_db_object_1e9508d4972df5104868bf1e6253afcf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Mining companies Data Mapping</label><live_feed_enabled>false</live_feed_enabled><name>x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">f81340f054302110a866ac4e6131311e</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-23 16:53:39</sys_created_on><sys_id>1e9508d4972df5104868bf1e6253afcf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Meg Leg 0 Ihub Import 0f117f8897a9f5104868bf1e6253af12</sys_name><sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package><sys_policy/><sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope><sys_update_name>sys_db_object_1e9508d4972df5104868bf1e6253afcf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-23 16:53:39</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1063397775</payload_hash>
+        <record_name>Mining companies Data Mapping</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 16:53:39</sys_created_on>
+        <sys_id>d69548d4972df5104868bf1e6253af3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac2f60c5e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 16:53:39</sys_updated_on>
+        <type>Table</type>
+        <update_guid>5e9548d4652df510f4adb29d72588f3b</update_guid>
+        <update_guid_history>5e9548d4652df510f4adb29d72588f3b:1063397775</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 17:01:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>839a529506a9457d8b719fbf5f450ae9</sys_id>
+        <sys_metadata>1e9508d4972df5104868bf1e6253afcf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meg Leg 0 Ihub Import 0f117f8897a9f5104868bf1e6253af12</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_db_object_1e9508d4972df5104868bf1e6253afcf</sys_update_name>
+        <sys_update_version display_value="sys_db_object_1e9508d4972df5104868bf1e6253afcf">d69548d4972df5104868bf1e6253af3c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 17:01:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

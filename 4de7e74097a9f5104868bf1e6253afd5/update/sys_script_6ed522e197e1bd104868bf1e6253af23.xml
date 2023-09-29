@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sc_req_item">cat_item=db19726d9725bd104868bf1e6253af70^EQ<item display_table="sc_cat_item" display_value="Legal advice import" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="false" value="db19726d9725bd104868bf1e6253af70"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>copy attachment deom RITM to Data source</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var attachment = new GlideSysAttachment();
+	var attached = attachment.copy('sc_req_item', current.getUniqueValue(), 'sys_data_source', 'b3e781382f5c9110344f2b5df699b6a9');
+
+	if(attached){
+		gs.info('Attachment Copied from: ' + current.number);
+		var grImp = new GlideRecord("scheduled_import_set");
+		if(grImp.get('6775e6a197e1bd104868bf1e6253afd5')){ 
+			gs.executeNow(grImp);	
+		}	
+	}
+
+})(current, previous);
+
+
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 01:49:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ed522e197e1bd104868bf1e6253af23</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>copy attachment deom RITM to Data source</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_script_6ed522e197e1bd104868bf1e6253af23</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 03:14:49</sys_updated_on>
+        <template>cat_item=b2f5bae59725bd104868bf1e6253af18^EQ</template>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=6ed522e197e1bd104868bf1e6253af23"/>
+</record_update>

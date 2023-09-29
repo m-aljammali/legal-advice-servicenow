@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_114009_meg_leg_0.MegLegUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Utils Script for the MEGG Legal app.</description>
+        <name>MegLegUtils</name>
+        <script><![CDATA[var MegLegUtils = Class.create();
+MegLegUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+    getCompaniesArray: function() {
+
+        var array = [];
+
+        var activity = new GlideRecord('x_114009_meg_leg_0_mining_companies');
+        var region = this.getParameter('sysparm_region');
+	
+        if (region != ""){
+            activity.addQuery('region', region);
+		}
+        activity.query();
+
+        var i = 0;
+        while (activity.next()) {
+            array[i] = activity.getValue("company_name");
+            i++;
+        }
+
+        return JSON.stringify(array);
+    },
+
+
+
+
+    type: 'MegLegUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-24 11:57:39</sys_created_on>
+        <sys_id>156608e8976d39104868bf1e6253af07</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>MegLegUtils</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_script_include_156608e8976d39104868bf1e6253af07</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-24 12:51:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

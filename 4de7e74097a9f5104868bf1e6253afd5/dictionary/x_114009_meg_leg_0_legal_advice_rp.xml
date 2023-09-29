@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="c9596124976579104868bf1e6253af95" extends="task" label="Legal Advice RP" max_length="40" name="x_114009_meg_leg_0_legal_advice_rp" type="collection">
+        <element label="Legal advice record" max_length="32" name="legal_advice_record" reference="x_114009_meg_leg_0_legal_advice" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Legal Question" max_length="1000" name="legal_question" type="string"/>
+        <element choice="3" label="Legal team member" max_length="100" name="legal_team_member" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Legal Office" value="legal.office@example.com"/>
+                <element inactive_on_update="false" label="Lionel Hutz" value="Lionel.Hutz@example.com"/>
+                <element inactive_on_update="false" label="Saul Goodman" value="Saul.Goodman@example.com"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Mining Resource" max_length="40" name="mining_resource" type="string">
+            <choice>
+                <element inactive_on_update="false" label="COAL" value="COAL"/>
+                <element inactive_on_update="false" label="MINERALS" value="MINERALS"/>
+                <element inactive_on_update="false" label="PETROLEUM" value="PETROLEUM"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Project opration" max_length="40" name="project_opration" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ASSESSMENT" value="ASSESSMENT"/>
+                <element inactive_on_update="false" label="EXPLORING" value="EXPLORING"/>
+                <element inactive_on_update="false" label="MINING" value="MINING"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Region" max_length="40" name="region" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Related Companies" max_length="40" name="related_companies" type="glide_list"/>
+        <element label="Related legal advice" max_length="32" name="related_legal_advice" reference="x_114009_meg_leg_0_legal_advice_rp" type="reference"/>
+    </element>
+</database>

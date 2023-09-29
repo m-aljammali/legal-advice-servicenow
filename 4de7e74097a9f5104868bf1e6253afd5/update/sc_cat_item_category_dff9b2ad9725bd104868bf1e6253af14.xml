@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Legal advice import">db19726d9725bd104868bf1e6253af70</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 03:14:12</sys_created_on>
+        <sys_id>dff9b2ad9725bd104868bf1e6253af14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Legal advice import</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sc_cat_item_category_dff9b2ad9725bd104868bf1e6253af14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 03:14:12</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

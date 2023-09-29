@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>se the GetEmail Address Script Include to retrieve the Requested for's email address from the database when the Requested for value changes.&#13;
+</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Populate Email Field</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+  // Instantiate the GetEmailAddress Script Include 
+  var getEmailAddr = new GlideAjax('MegLegUtils');
+  // Specify the getEmail method
+  getEmailAddr.addParam('sysparm_name','getCompaniesArray');
+  // Pass the Requested for sys_id
+  getEmailAddr.addParam('sysparm_region', 'Central Coast');
+  // Send the request to the server
+  getEmailAddr.getXML(populateEmailField);
+
+
+  // When the response is back from the server
+  function populateEmailField(response){
+    // Extract the email address from the response, clear any value from the email field, 
+    // set new value in the email field
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+	  
+	  answer = JSON.parse(answer);
+alert(answer[1]);
+  }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 19:55:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97aee85897edf5104868bf1e6253afd7</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Populate Email Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_script_client_97aee85897edf5104868bf1e6253afd7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-24 12:31:03</sys_updated_on>
+        <table>x_114009_meg_leg_0_mining_companies</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_script_client_97aee85897edf5104868bf1e6253afd7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;se the GetEmail Address Script Include to retrieve the Requested for's email address from the database when the Requested for value changes.&amp;#13;
+&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate Email Field&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+  // Instantiate the GetEmailAddress Script Include 
+  var getEmailAddr = new GlideAjax('MegLegUtils');
+  // Specify the getEmail method
+  getEmailAddr.addParam('sysparm_name','getCompaniesArray');
+  // Pass the Requested for sys_id
+  getEmailAddr.addParam('sysparm_region', 'Central Coast');
+  // Send the request to the server
+  getEmailAddr.getXML(populateEmailField);
+
+
+  // When the response is back from the server
+  function populateEmailField(response){
+    // Extract the email address from the response, clear any value from the email field, 
+    // set new value in the email field
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+	  
+	  answer = JSON.parse(answer);
+alert(answer[1]);
+  }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-23 19:55:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;97aee85897edf5104868bf1e6253afd7&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate Email Field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0"&gt;4de7e74097a9f5104868bf1e6253afd5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MEG Legal advice"&gt;4de7e74097a9f5104868bf1e6253afd5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_97aee85897edf5104868bf1e6253afd7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-24 12:31:03&lt;/sys_updated_on&gt;&lt;table&gt;x_114009_meg_leg_0_mining_companies&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-148030467</payload_hash>
+        <record_name>Populate Email Field</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-24 12:31:03</sys_created_on>
+        <sys_id>d113982897ed39104868bf1e6253afba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac72bfcbf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-24 12:31:03</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d9139828c5ed39102b16bce0ba2d7db9</update_guid>
+        <update_guid_history>d9139828c5ed39102b16bce0ba2d7db9:-148030467,c77110e480ed39104e275e96a22c85f5:566639095,0d6190e4f1ed3910364a5d44f2722ce6:1665542130,6711dca4a5ed39102117ca7fd0da2d01:-1560055116,6eb0d0a436ed39106551ad81fb62e18b:-237592112,81009064e0ed39106d12f420c2767da7:-248851920,7eaf8064cced39105efde7877105e558:-1831413893,195f042439ed3910a3ed6d3753b445ff:1003117833,06de4024c0ed391053af9be6f0fa77c6:325780696,cd30b8d873edf5109877c197944cbdd3:203232597,2d9f2c98deedf510dc27ec2139c75f42:933622938,e68f209893edf510db2c0fb638561eeb:-381243800,127fe89891edf5109534d20722524a87:933622938,135fe09805edf510e1a09e42795f61ec:395640373,ec4fa498e6edf510ace66016aef612f5:2110343747,442fe09861edf5104127eb6962f460e5:-1713967497</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-24 12:39:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>18f87bddb1aa4f079bef946df6aeb961</sys_id>
+        <sys_metadata>97aee85897edf5104868bf1e6253afd7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate Email Field</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent display_value="Mining Companies">f24b88dc972df5104868bf1e6253afe3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_script_client_97aee85897edf5104868bf1e6253afd7</sys_update_name>
+        <sys_update_version display_value="sys_script_client_97aee85897edf5104868bf1e6253afd7">d113982897ed39104868bf1e6253afba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-24 12:39:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="d4f9b92997ed7d104868bf1e6253affe" sys_domain="global" table="x_114009_meg_leg_0_legal_advice" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_114009_meg_leg_0_legal_advice</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-27 22:34:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4f9b92997ed7d104868bf1e6253affe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_114009_meg_leg_0_legal_advice</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+            <sys_update_name>sys_ui_section_d4f9b92997ed7d104868bf1e6253affe</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-27 22:34:23</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_ui_section_d4f9b92997ed7d104868bf1e6253affe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 1" section_id="d4f9b92997ed7d104868bf1e6253affe" sys_domain="global" table="x_114009_meg_leg_0_legal_advice" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 1</caption><header>false</header><name>x_114009_meg_leg_0_legal_advice</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-27 22:34:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d4f9b92997ed7d104868bf1e6253affe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_114009_meg_leg_0_legal_advice</sys_name><sys_overrides/><sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package><sys_policy/><sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope><sys_update_name>sys_ui_section_d4f9b92997ed7d104868bf1e6253affe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-27 22:34:23</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1252294445</payload_hash>
+        <record_name>Legal advice</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 22:34:23</sys_created_on>
+        <sys_id>e4f9f92997ed7d104868bf1e6253af40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ad8c76fe70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 22:34:23</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>6cf9f92957ed7d10aaf68c8824f5903f</update_guid>
+        <update_guid_history>6cf9f92957ed7d10aaf68c8824f5903f:-1252294445</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 22:34:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3c56cbe389d04e1e82a61995412f57a4</sys_id>
+        <sys_metadata>d4f9b92997ed7d104868bf1e6253affe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 1</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent display_value="Legal advice">5099a7c097a9f5104868bf1e6253afc5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_ui_section_d4f9b92997ed7d104868bf1e6253affe</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_d4f9b92997ed7d104868bf1e6253affe">e4f9f92997ed7d104868bf1e6253af40</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 22:34:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

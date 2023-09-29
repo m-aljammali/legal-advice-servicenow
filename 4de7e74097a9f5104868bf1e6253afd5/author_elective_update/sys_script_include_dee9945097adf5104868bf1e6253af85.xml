@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_114009_meg_leg_0.GetRegions</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Get regions from Mining Companies table.</description>
+        <name>GetRegions</name>
+        <script><![CDATA[var GetRegions = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetRegions.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+  // Define the getEmail function.  
+  // Create a GlideRecord for the User table.
+  // Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+  // Return the email address for the requested record
+  getEmail: function() {
+    var userRecord = new GlideRecord("sys_user");
+    userRecord.get(this.getParameter('sysparm_userID'));
+    return userRecord.email + '';
+  },
+  type: 'GetRegions'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 18:37:45</sys_created_on>
+        <sys_id>dee9945097adf5104868bf1e6253af85</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>GetRegions</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_script_include_dee9945097adf5104868bf1e6253af85</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 19:51:13</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_script_include_dee9945097adf5104868bf1e6253af85</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_114009_meg_leg_0.GetRegions&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Get regions from Mining Companies table.&lt;/description&gt;&lt;name&gt;GetRegions&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetRegions = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetRegions.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+  // Define the getEmail function.  
+  // Create a GlideRecord for the User table.
+  // Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+  // Return the email address for the requested record
+  getEmail: function() {
+    var userRecord = new GlideRecord("sys_user");
+    userRecord.get(this.getParameter('sysparm_userID'));
+    return userRecord.email + '';
+  },
+  type: 'GetRegions'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-23 18:37:45&lt;/sys_created_on&gt;&lt;sys_id&gt;dee9945097adf5104868bf1e6253af85&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetRegions&lt;/sys_name&gt;&lt;sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0"&gt;4de7e74097a9f5104868bf1e6253afd5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MEG Legal advice"&gt;4de7e74097a9f5104868bf1e6253afd5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_dee9945097adf5104868bf1e6253af85&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-23 19:51:13&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1960756012</payload_hash>
+        <record_name>GetRegions</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 19:51:13</sys_created_on>
+        <sys_id>233e205897edf5104868bf1e6253af5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac3989f400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 19:51:13</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>1b3e2058c4edf5105ff3752fb8586b5e</update_guid>
+        <update_guid_history>1b3e2058c4edf5105ff3752fb8586b5e:-1960756012,c43ee4184bedf5100e58356c649bed7e:-140167719,c19dacd4dbedf51095a42d9a9a831c8e:-1373950293,6a5960d081edf510776f307fad2bfae9:1930798451,2967ac105fedf5103a22eb2094bc7a8b:141497882,2646e41c2badf510279884770f9e64b0:-1158150662,0036e41c7aadf510d32d7205da8aef29:1683009491,8f93e41cccadf510bc18dfc14e276b0c:-325745649,6f73e41c78adf510575e9b0300087107:-1037125847,5463241c06adf510d432fcf6b65afdff:1107063915,c612e85894adf51029d4998fbde12ea0:1305558697,01d1ec58ffadf5108c11dcf7ce22c537:533559077,0f4164586fadf510dc9e9f1ce6f7a881:-709992707,9b6dd054b0adf5108294fb481480f7e4:1979441265</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 19:51:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>00539ec381654d4a8014ffa7a24a0864</sys_id>
+        <sys_metadata>dee9945097adf5104868bf1e6253af85</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetRegions</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_script_include_dee9945097adf5104868bf1e6253af85</sys_update_name>
+        <sys_update_version display_value="sys_script_include_dee9945097adf5104868bf1e6253af85">233e205897edf5104868bf1e6253af5f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 19:51:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
