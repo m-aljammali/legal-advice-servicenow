@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_114009_meg_leg_0_mining_companies</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_114009_meg_leg_0_mining_companies</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 16:56:01</sys_created_on>
+        <sys_id>7c264418972df5104868bf1e6253af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_114009_meg_leg_0_mining_companies</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_security_acl_7c264418972df5104868bf1e6253af34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 16:56:01</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_security_acl_7c264418972df5104868bf1e6253af34</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_114009_meg_leg_0_mining_companies</description><local_or_existing>Local</local_or_existing><name>x_114009_meg_leg_0_mining_companies</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-23 16:56:01</sys_created_on><sys_id>7c264418972df5104868bf1e6253af34</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_114009_meg_leg_0_mining_companies</sys_name><sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package><sys_policy/><sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope><sys_update_name>sys_security_acl_7c264418972df5104868bf1e6253af34</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-23 16:56:01</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-972615485</payload_hash>
+        <record_name>x_114009_meg_leg_0_mining_companies</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 16:56:01</sys_created_on>
+        <sys_id>34264418972df5104868bf1e6253af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac2f8351e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 16:56:01</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>78264418c52df510e91e4a399d424d36</update_guid>
+        <update_guid_history>78264418c52df510e91e4a399d424d36:-972615485</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 17:17:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>b18a398930df43609f37038702392100</sys_id>
+        <sys_metadata>7c264418972df5104868bf1e6253af34</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_114009_meg_leg_0_mining_companies</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent display_value="">78264418972df5104868bf1e6253af52</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_security_acl_7c264418972df5104868bf1e6253af34</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_7c264418972df5104868bf1e6253af34">34264418972df5104868bf1e6253af37</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 17:17:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

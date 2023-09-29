@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 14:51:18</sys_created_on>
+        <sys_id>fd996bc097a9f5104868bf1e6253af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_114009_meg_leg_0_legal_advice.x_114009_meg_leg_0.requester</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_security_acl display_value="x_114009_meg_leg_0_legal_advice">39996bc097a9f5104868bf1e6253af8c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fd996bc097a9f5104868bf1e6253af8e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 14:51:18</sys_updated_on>
+        <sys_user_role display_value="x_114009_meg_leg_0.requester" name="x_114009_meg_leg_0.requester">51e7e74097a9f5104868bf1e6253afde</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_security_acl_role_fd996bc097a9f5104868bf1e6253af8e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-23 14:51:18</sys_created_on><sys_id>fd996bc097a9f5104868bf1e6253af8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_114009_meg_leg_0_legal_advice.x_114009_meg_leg_0.requester</sys_name><sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package><sys_policy/><sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope><sys_security_acl display_value="x_114009_meg_leg_0_legal_advice">39996bc097a9f5104868bf1e6253af8c</sys_security_acl><sys_update_name>sys_security_acl_role_fd996bc097a9f5104868bf1e6253af8e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-23 14:51:18</sys_updated_on><sys_user_role display_value="x_114009_meg_leg_0.requester" name="x_114009_meg_leg_0.requester">51e7e74097a9f5104868bf1e6253afde</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-546796743</payload_hash>
+        <record_name>x_114009_meg_leg_0_legal_advice.x_114009_meg_leg_0.requester</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 14:51:18</sys_created_on>
+        <sys_id>f1996bc097a9f5104868bf1e6253af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac286072c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 14:51:18</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>39996bc02ca9f5102f2ac000f72aa190</update_guid>
+        <update_guid_history>39996bc02ca9f5102f2ac000f72aa190:-546796743</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_114009_meg_leg_0_legal_advice.x_114009_meg_leg_0.requester">d5d74e699721bd104868bf1e6253af6d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 23:35:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>a3c449c390fe48fb879904cf100c4c51</sys_id>
+        <sys_metadata>fd996bc097a9f5104868bf1e6253af8e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_114009_meg_leg_0_legal_advice.x_114009_meg_leg_0.requester</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_fd996bc097a9f5104868bf1e6253af8e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_fd996bc097a9f5104868bf1e6253af8e">f1996bc097a9f5104868bf1e6253af91</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 23:35:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

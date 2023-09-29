@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Mining companies</name>
+        <order>100</order>
+        <roles>x_114009_meg_leg_0.mining_companies_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 16:56:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4264418972df5104868bf1e6253af20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mining companies</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_app_application_f4264418972df5104868bf1e6253af20</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 16:56:00</sys_updated_on>
+        <title>Mining companies</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_app_application_f4264418972df5104868bf1e6253af20</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Mining companies</name><order>100</order><roles>x_114009_meg_leg_0.mining_companies_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-23 16:56:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f4264418972df5104868bf1e6253af20</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mining companies</sys_name><sys_overrides/><sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package><sys_policy/><sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope><sys_update_name>sys_app_application_f4264418972df5104868bf1e6253af20</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-23 16:56:00</sys_updated_on><title>Mining companies</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1569705046</payload_hash>
+        <record_name>Mining companies</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 16:56:00</sys_created_on>
+        <sys_id>7c264418972df5104868bf1e6253af23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac2f833780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 16:56:00</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>b02644185e2df51080fc5ab6d9aa6c23</update_guid>
+        <update_guid_history>b02644185e2df51080fc5ab6d9aa6c23:-1569705046</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mining companies">1604522d9761bd104868bf1e6253af0d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 00:28:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>3dc855a365034fd0a9d3c9f6e6cb6d19</sys_id>
+        <sys_metadata>f4264418972df5104868bf1e6253af20</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mining companies</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_app_application_f4264418972df5104868bf1e6253af20</sys_update_name>
+        <sys_update_version display_value="sys_app_application_f4264418972df5104868bf1e6253af20">7c264418972df5104868bf1e6253af23</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 00:28:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="dc14756197ed7d104868bf1e6253afba" sys_domain="global" table="x_114009_meg_leg_0_legal_advice" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-27 22:12:50</sys_created_on>
+            <sys_id>f80579a197ed7d104868bf1e6253af2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-27 22:12:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_refrence</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-27 22:12:50</sys_created_on>
+            <sys_id>fc0579a197ed7d104868bf1e6253af2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-27 22:12:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-27 22:12:50</sys_created_on>
+            <sys_id>f00579a197ed7d104868bf1e6253af2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-27 22:12:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>region</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-27 22:12:50</sys_created_on>
+            <sys_id>f40579a197ed7d104868bf1e6253af2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-27 22:12:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>companies</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-27 22:12:50</sys_created_on>
+            <sys_id>f80579a197ed7d104868bf1e6253af2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-27 22:12:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mining_resource</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-27 22:12:50</sys_created_on>
+            <sys_id>fc0579a197ed7d104868bf1e6253af2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-27 22:12:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_opration</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-27 22:12:50</sys_created_on>
+            <sys_id>f00579a197ed7d104868bf1e6253af2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-27 22:12:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_114009_meg_leg_0_legal_advice</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-27 22:08:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc14756197ed7d104868bf1e6253afba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_114009_meg_leg_0_legal_advice</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+            <sys_update_name>sys_ui_section_dc14756197ed7d104868bf1e6253afba</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-27 22:08:43</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_ui_section_dc14756197ed7d104868bf1e6253afba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="dc14756197ed7d104868bf1e6253afba" sys_domain="global" table="x_114009_meg_leg_0_legal_advice" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-27 22:12:50</sys_created_on><sys_id>f80579a197ed7d104868bf1e6253af2b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-27 22:12:50</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>request_refrence</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-27 22:12:50</sys_created_on><sys_id>fc0579a197ed7d104868bf1e6253af2b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-27 22:12:50</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-27 22:12:50</sys_created_on><sys_id>f00579a197ed7d104868bf1e6253af2c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-27 22:12:50</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>region</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-27 22:12:50</sys_created_on><sys_id>f40579a197ed7d104868bf1e6253af2c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-27 22:12:50</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>companies</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-27 22:12:50</sys_created_on><sys_id>f80579a197ed7d104868bf1e6253af2c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-27 22:12:50</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>mining_resource</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-27 22:12:50</sys_created_on><sys_id>fc0579a197ed7d104868bf1e6253af2c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-27 22:12:50</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>project_opration</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-27 22:12:50</sys_created_on><sys_id>f00579a197ed7d104868bf1e6253af2d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_114009_meg_leg_0_legal_advice" sys_domain="global" view="Default view">dc14756197ed7d104868bf1e6253afba</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-27 22:12:50</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_114009_meg_leg_0_legal_advice</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-27 22:08:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dc14756197ed7d104868bf1e6253afba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_114009_meg_leg_0_legal_advice</sys_name><sys_overrides/><sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package><sys_policy/><sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope><sys_update_name>sys_ui_section_dc14756197ed7d104868bf1e6253afba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-27 22:08:43</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>2035946536</payload_hash>
+        <record_name>Legal advice</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 22:12:50</sys_created_on>
+        <sys_id>f40579a197ed7d104868bf1e6253af2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ad8b3b5280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 22:12:50</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>bc0579a1c5ed7d1075efd3c298163c2e</update_guid>
+        <update_guid_history>bc0579a1c5ed7d1075efd3c298163c2e:2035946536,a2e4f5a1b3ed7d1068a7bc4ebba3dd64:-981728685,2414b5614fed7d10e635223abb74ea40:2035946536</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 22:13:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2cec0c4e567b4f6c92573fbfe5ea9284</sys_id>
+        <sys_metadata>dc14756197ed7d104868bf1e6253afba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_114009_meg_leg_0_legal_advice</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent display_value="Legal advice">5099a7c097a9f5104868bf1e6253afc5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_ui_section_dc14756197ed7d104868bf1e6253afba</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_dc14756197ed7d104868bf1e6253afba">f40579a197ed7d104868bf1e6253af2f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 22:13:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

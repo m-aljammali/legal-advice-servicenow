@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>MEG_LEG_Add_cc</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+
+    // Get user record
+    var gr = new GlideRecord('sys_user'); 
+    gr.addQuery('user_name', current.sys_created_by);   
+    gr.query();
+	
+    if (gr.next()) {
+        // Add Created by User Email to cc list
+        email.addAddress('cc', gr.getValue("email"), gr.getValue("name"));
+    }
+
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 15:57:18</sys_created_on>
+        <sys_id>51f11f4197613d104868bf1e6253af40</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>MEG_LEG_Add_cc</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_script_email_51f11f4197613d104868bf1e6253af40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:00:19</sys_updated_on>
+    </sys_script_email>
+</record_update>

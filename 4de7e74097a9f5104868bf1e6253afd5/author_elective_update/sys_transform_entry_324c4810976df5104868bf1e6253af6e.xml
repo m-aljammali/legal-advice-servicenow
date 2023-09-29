@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Mining companies">891c88dc972df5104868bf1e6253afed</map>
+        <reference_value_field/>
+        <source_field>u_region</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_114009_meg_leg_0_mining_companies_data_mapping</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 17:22:54</sys_created_on>
+        <sys_id>324c4810976df5104868bf1e6253af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_region</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_transform_entry_324c4810976df5104868bf1e6253af6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 17:22:54</sys_updated_on>
+        <target_field>region</target_field>
+        <target_table>x_114009_meg_leg_0_mining_companies</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_transform_entry_324c4810976df5104868bf1e6253af6e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Mining companies"&gt;891c88dc972df5104868bf1e6253afed&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_region&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_114009_meg_leg_0_mining_companies_data_mapping&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-23 17:22:54&lt;/sys_created_on&gt;&lt;sys_id&gt;324c4810976df5104868bf1e6253af6e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_region&lt;/sys_name&gt;&lt;sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0"&gt;4de7e74097a9f5104868bf1e6253afd5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MEG Legal advice"&gt;4de7e74097a9f5104868bf1e6253afd5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_324c4810976df5104868bf1e6253af6e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-23 17:22:54&lt;/sys_updated_on&gt;&lt;target_field&gt;region&lt;/target_field&gt;&lt;target_table&gt;x_114009_meg_leg_0_mining_companies&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1815600308</payload_hash>
+        <record_name>u_region</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 17:22:54</sys_created_on>
+        <sys_id>f24c4810976df5104868bf1e6253af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac310d5690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 17:22:54</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>3a4c48106a6df510a4846dba016be86f</update_guid>
+        <update_guid_history>3a4c48106a6df510a4846dba016be86f:-1815600308</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 01:37:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>54ea00bb7fef40c7b6b35aae7115f279</sys_id>
+        <sys_metadata>324c4810976df5104868bf1e6253af6e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_region</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_324c4810976df5104868bf1e6253af6e</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_324c4810976df5104868bf1e6253af6e">f24c4810976df5104868bf1e6253af70</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 01:37:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

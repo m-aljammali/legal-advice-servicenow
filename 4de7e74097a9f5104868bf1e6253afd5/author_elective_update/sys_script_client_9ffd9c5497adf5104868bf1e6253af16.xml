@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Mining Companies Populate choices</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+
+
+
+  // Instantiate the GetEmailAddress Script Include 
+  var getEmailAddr = new GlideAjax('GetRegions');
+  // Specify the getEmail method
+  getEmailAddr.addParam('sysparm_name','getEmail');
+  // Pass the Requested for sys_id
+  getEmailAddr.addParam('sysparm_userID', g_form.getValue('u_requested_for'));
+  // Send the request to the server
+  getEmailAddr.getXML(populateEmailField);
+
+  alert(emailFromScriptInclude)
+  // When the response is back from the server
+  function populateEmailField(response){
+    // Extract the email address from the response, clear any value from the email field, 
+    // set new value in the email field
+    var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+	  alert(emailFromScriptInclude)
+    g_form.clearValue('Region');
+    g_form.setValue('Region',emailFromScriptInclude);
+  }
+    }
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 18:48:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ffd9c5497adf5104868bf1e6253af16</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Mining Companies Populate choices</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_script_client_9ffd9c5497adf5104868bf1e6253af16</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 19:51:21</sys_updated_on>
+        <table>x_114009_meg_leg_0_mining_companies</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_script_client_9ffd9c5497adf5104868bf1e6253af16</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Mining Companies Populate choices&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+
+
+
+  // Instantiate the GetEmailAddress Script Include 
+  var getEmailAddr = new GlideAjax('GetRegions');
+  // Specify the getEmail method
+  getEmailAddr.addParam('sysparm_name','getEmail');
+  // Pass the Requested for sys_id
+  getEmailAddr.addParam('sysparm_userID', g_form.getValue('u_requested_for'));
+  // Send the request to the server
+  getEmailAddr.getXML(populateEmailField);
+
+  alert(emailFromScriptInclude)
+  // When the response is back from the server
+  function populateEmailField(response){
+    // Extract the email address from the response, clear any value from the email field, 
+    // set new value in the email field
+    var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+	  alert(emailFromScriptInclude)
+    g_form.clearValue('Region');
+    g_form.setValue('Region',emailFromScriptInclude);
+  }
+    }
+
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-23 18:48:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9ffd9c5497adf5104868bf1e6253af16&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;Mining Companies Populate choices&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0"&gt;4de7e74097a9f5104868bf1e6253afd5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MEG Legal advice"&gt;4de7e74097a9f5104868bf1e6253afd5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_9ffd9c5497adf5104868bf1e6253af16&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-23 19:51:21&lt;/sys_updated_on&gt;&lt;table&gt;x_114009_meg_leg_0_mining_companies&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>134738678</payload_hash>
+        <record_name>Mining Companies Populate choices</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 19:51:21</sys_created_on>
+        <sys_id>c54ea81897edf5104868bf1e6253af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac398bafc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 19:51:21</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>cd4ea8182bedf510c7964dba54941283</update_guid>
+        <update_guid_history>cd4ea8182bedf510c7964dba54941283:134738678,db0e2c1808edf510f69a89b08dc7755c:-1015384491,60fd2c1861edf5103f379e7d89074f55:-973591031,f4dd681847edf5109493b9f87d53ec9d:-1166445470,4b6bec1445edf51059e162afdd3f422e:-154040192,647a2814e9edf510830394e8d2b169b2:-1134337191,b95aecd04bedf510567e5038bb8e79b1:-1024039737,d43aa4d044edf51084ed310c760bdc6c:-1134337191,9ff9a0d0f8edf510b480b72dd635bd61:1174173734,7ce92cd0d3edf5105447f685505ba7f3:-939783682,088964d046edf510e27239eeefee3d08:1013396558,5269e0d0c7edf510a4a4788ff1245721:-227708788,6ed8ac10c4edf5107ca5706355c1de95:-60482921,e6b86050cfedf5107f87ba8e328b96dd:-2012602197,bc27601083edf510f223cf8d5c74231e:-631510503,4f9668dc10adf5105c0e535903b665bb:-1509491218,b1a3a0d87badf5100535e205f6457585:-246715796,ce602c18b2adf51001686289d2a5df9b:1003964000,f5502c1834adf5101708b42df9449c4c:-246715796,8f3024546badf5101671e5f6cba46ec0:1251486155,fb0024187aadf5106919d9703bc32dae:414304938,e7df1454eeadf51093920aa92ccb3fe2:-1542082405</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 19:51:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>73388d4819864c48a2ce6b0a81102ea9</sys_id>
+        <sys_metadata>9ffd9c5497adf5104868bf1e6253af16</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mining Companies Populate choices</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent display_value="Mining Companies">f24b88dc972df5104868bf1e6253afe3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_script_client_9ffd9c5497adf5104868bf1e6253af16</sys_update_name>
+        <sys_update_version display_value="sys_script_client_9ffd9c5497adf5104868bf1e6253af16">c54ea81897edf5104868bf1e6253af84</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 19:51:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

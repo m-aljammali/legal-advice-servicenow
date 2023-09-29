@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="91546e2197e1bd104868bf1e6253af4d" extends="sys_import_set_row" label="Import legal advice" max_length="40" name="x_114009_meg_leg_0_import_legal_advice" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=companies Affected" label="companies Affected" max_length="40" name="u_companies_affected" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date" label="Date" max_length="40" name="u_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Legal Advice" label="Legal Advice" max_length="4000" name="u_legal_advice" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Project operation" label="Project operation" max_length="40" name="u_project_operation" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Region" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=resource" label="resource" max_length="40" name="u_resource" type="string"/>
+    </element>
+</database>

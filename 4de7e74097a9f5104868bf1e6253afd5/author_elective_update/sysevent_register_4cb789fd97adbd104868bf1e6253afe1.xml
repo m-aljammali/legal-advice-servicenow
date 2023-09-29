@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>fire this event monthly to check if there is new legal advice </description>
+        <event_name>x_114009_meg_leg_0.checkForNewLegalAdvic</event_name>
+        <fired_by/>
+        <priority>100</priority>
+        <queue/>
+        <suffix>checkForNewLegalAdvice</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 13:41:41</sys_created_on>
+        <sys_id>4cb789fd97adbd104868bf1e6253afe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_114009_meg_leg_0.checkForNewLegalAdvic</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sysevent_register_4cb789fd97adbd104868bf1e6253afe1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 13:41:41</sys_updated_on>
+        <table>x_114009_meg_leg_0_legal_advice</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sysevent_register_4cb789fd97adbd104868bf1e6253afe1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><derived_priority>100</derived_priority><description>fire this event monthly to check if there is new legal advice </description><event_name>x_114009_meg_leg_0.checkForNewLegalAdvic</event_name><fired_by/><priority>100</priority><queue/><suffix>checkForNewLegalAdvice</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-28 13:41:41</sys_created_on><sys_id>4cb789fd97adbd104868bf1e6253afe1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_114009_meg_leg_0.checkForNewLegalAdvic</sys_name><sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package><sys_policy/><sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope><sys_update_name>sysevent_register_4cb789fd97adbd104868bf1e6253afe1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-28 13:41:41</sys_updated_on><table>x_114009_meg_leg_0_legal_advice</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>-1771096864</payload_hash>
+        <record_name>x_114009_meg_leg_0.checkForNewLegalAdvic</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 13:41:41</sys_created_on>
+        <sys_id>4399053197edbd104868bf1e6253af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18adc0618990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 13:41:41</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>07990531bfedbd106a3c968e61f51e5c</update_guid>
+        <update_guid_history>07990531bfedbd106a3c968e61f51e5c:-1771096864</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 13:45:31</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>266b753d809540a0b922708e3c2d0100</sys_id>
+        <sys_metadata>4cb789fd97adbd104868bf1e6253afe1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_114009_meg_leg_0.checkForNewLegalAdvic</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent display_value="Legal advice">5099a7c097a9f5104868bf1e6253afc5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sysevent_register_4cb789fd97adbd104868bf1e6253afe1</sys_update_name>
+        <sys_update_version display_value="sysevent_register_4cb789fd97adbd104868bf1e6253afe1">4399053197edbd104868bf1e6253af5d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 13:45:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

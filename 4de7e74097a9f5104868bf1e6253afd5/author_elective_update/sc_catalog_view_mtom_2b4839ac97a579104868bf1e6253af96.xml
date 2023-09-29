@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="DELETE">
+        <default>true</default>
+        <sc_catalog display_value="Legal">4f38f5ac97a579104868bf1e6253af25</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-24 19:53:18</sys_created_on>
+        <sys_id>2b4839ac97a579104868bf1e6253af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Legal.catalog_legal</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_legal">234839ac97a579104868bf1e6253af95</sys_portal_page>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_2b4839ac97a579104868bf1e6253af96</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-24 19:53:18</sys_updated_on>
+    </sc_catalog_view_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sc_catalog_view_mtom_2b4839ac97a579104868bf1e6253af96</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom"><sc_catalog_view_mtom action="INSERT_OR_UPDATE"><default>true</default><sc_catalog display_value="Legal">4f38f5ac97a579104868bf1e6253af25</sc_catalog><sys_class_name>sc_catalog_view_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-24 19:53:18</sys_created_on><sys_id>2b4839ac97a579104868bf1e6253af96</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Legal.catalog_legal</sys_name><sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package><sys_policy/><sys_portal_page display_value="catalog_legal">234839ac97a579104868bf1e6253af95</sys_portal_page><sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope><sys_update_name>sc_catalog_view_mtom_2b4839ac97a579104868bf1e6253af96</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-24 19:53:18</sys_updated_on></sc_catalog_view_mtom></record_update>]]></payload>
+        <payload_hash>745768226</payload_hash>
+        <record_name>Legal.catalog_legal</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-24 19:53:18</sys_created_on>
+        <sys_id>a34839ac97a579104868bf1e6253af99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac8c0e1990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-24 19:53:18</sys_updated_on>
+        <type>Catalog Portal Page</type>
+        <update_guid>e74839acdda57910a2397fcb888d0198</update_guid>
+        <update_guid_history>e74839acdda57910a2397fcb888d0198:745768226</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Legal.catalog_legal">58210a46976531504868bf1e6253afb3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 12:22:44</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog_view_mtom">sc_catalog_view_mtom</sys_db_object>
+        <sys_id>7875c07357ff4bc8a91361bf8fdb60a4</sys_id>
+        <sys_metadata>2b4839ac97a579104868bf1e6253af96</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Legal.catalog_legal</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent display_value="Legal">4f38f5ac97a579104868bf1e6253af25</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sc_catalog_view_mtom_2b4839ac97a579104868bf1e6253af96</sys_update_name>
+        <sys_update_version display_value="sc_catalog_view_mtom_2b4839ac97a579104868bf1e6253af96">a34839ac97a579104868bf1e6253af99</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 12:22:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f24b88dc972df5104868bf1e6253afe3" label="Mining Companies" max_length="40" name="x_114009_meg_leg_0_mining_companies" type="collection">
+        <element choice="1" display="true" label="Company name" mandatory="true" max_length="40" name="company_name" type="string">
+            <choice/>
+        </element>
+        <element choice="3" label="Region" max_length="40" name="region" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Central Coast" sequence="0" value="Central Coast"/>
+                <element inactive_on_update="false" label="Metropolitan Sydney" sequence="0" value="Metropolitan Sydney"/>
+                <element inactive_on_update="false" label="Central West and Orana" sequence="1" value="central west and orana"/>
+                <element inactive_on_update="false" label="Far West" sequence="2" value="far west"/>
+                <element inactive_on_update="false" label="Hunter" sequence="3" value="hunter"/>
+                <element inactive_on_update="false" label="Illawarra" sequence="4" value="illawarra"/>
+                <element inactive_on_update="false" label="New England/North West" sequence="5" value="new england/north west"/>
+                <element inactive_on_update="false" label="North Coast" sequence="6" value="north coast"/>
+                <element inactive_on_update="false" label="Riverina Murray" sequence="7" value="riverina murray"/>
+                <element inactive_on_update="false" label="South East &amp; Tablelands" sequence="8" value="south east &amp; tablelands"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="5099a7c097a9f5104868bf1e6253afc5" label="Legal advice" max_length="40" name="x_114009_meg_leg_0_legal_advice" type="collection">
+        <element choice="1" dependent="region" dependent_on_field="region" label="companies" max_length="100" name="companies" reference="x_114009_meg_leg_0_mining_companies" reference_qual="company_nameNSAMEASregion^EQ" reference_qual_condition="company_nameNSAMEASregion^EQ" type="glide_list" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element choice="3" label="Is Record imported from a sheet" max_length="40" name="is_imported" read_only="true" type="boolean">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Yes" sequence="0" value="1"/>
+                <element inactive="true" inactive_on_update="true" label="No" sequence="1" value="0"/>
+            </choice>
+        </element>
+        <element label="Legal Advice" mandatory="true" max_length="4000" name="legal_advice" type="string"/>
+        <element choice="1" choice_field="mining_resource" choice_table="x_114009_meg_leg_0_legal_advice_rp" default="--none--" label="Mining Resource" max_length="40" name="mining_resource" type="string">
+            <choice>
+                <element inactive_on_update="false" label="COAL" sequence="0" value="COAL"/>
+                <element inactive_on_update="false" label="MINERALS" sequence="1" value="MINERALS"/>
+                <element inactive_on_update="false" label="PETROLEUM" sequence="2" value="PETROLEUM"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" choice_field="project_opration" choice_table="x_114009_meg_leg_0_legal_advice_rp" default="--none--" label="Project opration" max_length="40" name="project_opration" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ASSESSMENT" sequence="0" value="ASSESSMENT"/>
+                <element inactive_on_update="false" label="EXPLORING" sequence="1" value="EXPLORING"/>
+                <element inactive_on_update="false" label="MINING" sequence="2" value="MINING"/>
+            </choice>
+        </element>
+        <element choice="3" choice_field="region" choice_table="x_114009_meg_leg_0_mining_companies" default="--none--" label="region" max_length="40" name="region" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Central Coast" sequence="0" value="Central Coast"/>
+                <element inactive_on_update="false" label="Central West and Orana" sequence="1" value="central west and orana"/>
+                <element inactive_on_update="false" label="Far West" sequence="2" value="far west"/>
+                <element inactive_on_update="false" label="Hunter" sequence="3" value="hunter"/>
+                <element inactive_on_update="false" label="Illawarra" sequence="4" value="illawarra"/>
+                <element inactive_on_update="false" label="New England/North West" sequence="5" value="new england/north west"/>
+                <element inactive_on_update="false" label="North Coast" sequence="6" value="north coast"/>
+                <element inactive_on_update="false" label="Riverina Murray" sequence="7" value="riverina murray"/>
+                <element inactive_on_update="false" label="South East &amp; Tablelands" sequence="8" value="south east &amp; tablelands"/>
+            </choice>
+        </element>
+        <element choice="1" choice_table="x_114009_meg_leg_0_legal_advice_rp" label="Request refrence" max_length="40" name="request_refrence" reference="x_114009_meg_leg_0_legal_advice_rp" type="reference">
+            <choice/>
+        </element>
+    </element>
+</database>

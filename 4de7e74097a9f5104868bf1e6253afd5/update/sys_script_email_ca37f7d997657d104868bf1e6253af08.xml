@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>MEG_LEG_prepare_email_replay</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    var replayToEmail = "";
+    var replayCCEmail = "";
+
+    var gr = new GlideRecord('sys_user');
+    gr.addQuery('sys_id', '5136503cc611227c0183e96598c4f706'); //GUEST SYS_ID
+    gr.query();
+    if (gr.next()) {
+
+        replayToEmail = gr.getValue("email");
+    }
+
+    gr = new GlideRecord('sys_user');
+    gr.addQuery('user_name', current.sys_created_by);
+    gr.query();
+
+    if (gr.next()) {
+
+        replayCCEmail = gr.getValue("email");
+    }
+
+
+
+
+    var bodyTxt = "Please update and fill the form below \n \n";
+
+    if (current.variables.urgency != '') {
+
+        bodyTxt += "Urgency: " + current.variables.urgency + "\n";
+    }
+
+    if (current.variables.region != '') {
+        bodyTxt += "Region: " + current.variables.region + "\n";
+    }
+    if (current.variables.related_companies != '') {
+        bodyTxt += "Related Companies: " + current.variables.related_companies + "\n";
+    }
+    if (current.variables.mining_resource != '') {
+        bodyTxt += "Mining Resource: " + current.variables.mining_resource + "\n";
+    }
+    if (current.variables.legal_question != '') {
+        bodyTxt += "Legal Question: " + current.variables.legal_question + " \n";
+    }
+
+    if (current.variables.related_legal_advice != '') {
+        bodyTxt += "Related Question: " + current.variables.related_legal_advice.legal_question + "\n \n";
+    }
+
+
+
+    bodyTxt += "Legal Advice: ******";
+
+    var subjectTxt = encodeURI('Re: Request for a Legal advice: ' + current.number);
+
+
+    template.print('<a title="click here" href="mailto:' + replayToEmail + '?cc=' + replayCCEmail + '&SUBJECT=' + subjectTxt + '&amp;body=' + encodeURI(bodyTxt) + '">Click here to Replay using the template</a> \n');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-27 13:03:14</sys_created_on>
+        <sys_id>ca37f7d997657d104868bf1e6253af08</sys_id>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_name>MEG_LEG_prepare_email_replay</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_update_name>sys_script_email_ca37f7d997657d104868bf1e6253af08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 17:58:54</sys_updated_on>
+    </sys_script_email>
+</record_update>

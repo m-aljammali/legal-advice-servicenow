@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12" version="2" view="">
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>5de17b4c97a9f5104868bf1e6253afd1</sys_id>
+            <sys_mod_count/>
+            <sys_name>x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12</sys_name>
+            <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2023-09-23 15:33:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</application>
+        <file_path/>
+        <instance_id>bcd1511fdbb4b34049eac597059619ec</instance_id>
+        <instance_name>dev81988</instance_name>
+        <name>sys_ui_list_x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12" version="2" view=""><sys_ui_list action="DELETE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>5de17b4c97a9f5104868bf1e6253afd1</sys_id><sys_mod_count/><sys_name>x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12</sys_name><sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package><sys_policy/><sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2023-09-23 15:33:25</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-1423301029</payload_hash>
+        <record_name>x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12</record_name>
+        <reverted_from/>
+        <source>11e7e74097a9f5104868bf1e6253afda</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 15:33:25</sys_created_on>
+        <sys_id>0b3337cc97a9f5104868bf1e6253afcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ac2ac98270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 15:33:25</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>4f3337ccc8a9f510a2b0677ab869fcce</update_guid>
+        <update_guid_history>4f3337ccc8a9f510a2b0677ab869fcce:-1423301029</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-23 17:01:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>5ff1fd937f1e49ffbf5d236d2ab82ec1</sys_id>
+        <sys_metadata>1e9548d4972df5104868bf1e6253af41</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12</sys_name>
+        <sys_package display_value="MEG Legal advice" source="x_114009_meg_leg_0">4de7e74097a9f5104868bf1e6253afd5</sys_package>
+        <sys_parent display_value="">1e9508d4972df5104868bf1e6253afcf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MEG Legal advice">4de7e74097a9f5104868bf1e6253afd5</sys_scope>
+        <sys_scope_delete display_value="">33fdcaa8607541708625826d7c377f84</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_114009_meg_leg_0_ihub_import_0f117f8897a9f5104868bf1e6253af12_null">0b3337cc97a9f5104868bf1e6253afcf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-23 17:01:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
